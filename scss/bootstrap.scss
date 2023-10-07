@@ -1,0 +1,53 @@
+// Font
+$font-family-sans-serif: "Montserrat", sans-serif;
+
+// Colors
+$primary: #f8b547;
+$secondary: #35353a;
+$light: #fbf9f5;
+$body-bg: $light;
+
+// Spacing
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+
+$headings-margin-bottom: $spacer * 1;
+$line-height-base: 1.7;
+
+// navbar
+$navbar-nav-link-padding-x: 0.8rem;
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #fff;
+
+// buttons
+
+// custom variables
+$button-radius: 50px;
+$button-px: 30px;
+$button-py: 10px;
+
+$btn-padding-y: $button-py;
+$btn-padding-y-lg: $button-py;
+$btn-padding-y-sm: $button-py;
+$btn-padding-x: $button-px;
+$btn-padding-x-lg: $button-px;
+$btn-padding-x-sm: $button-px;
+$btn-border-radius: $button-radius;
+$btn-border-radius-lg: $button-radius;
+$btn-border-radius-sm: $button-radius;
+
+$navbar-toggler-border-radius: 5px;
+
+$headings-font-weight: bold;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
